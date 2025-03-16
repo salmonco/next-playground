@@ -1,8 +1,8 @@
 "use client";
 
-import { getLetterList } from "@component/common/apis/letter";
 import Image from "next/image";
 import { useEffect } from "react";
+import { getLetterList } from "~api/letter";
 
 export default function Home() {
   useEffect(() => {

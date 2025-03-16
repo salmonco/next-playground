@@ -1,4 +1,4 @@
-import { isMock } from "@component/mock/browser";
+import { isMock } from "~config/env";
 
 export async function register() {
   // production server에서만 수집

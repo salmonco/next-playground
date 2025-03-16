@@ -19,7 +19,9 @@
       }
     ],
     "paths": {
-      "@component/*": ["./src/*"]
+      "~config/*": ["./src/config/*"],
+      "~api/*": ["./src/common/apis/*"],
+      "~mock/*": ["./src/mock/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

@@ -3,12 +3,8 @@
 import { useEffect, useRef } from "react";
 
 import { bypass } from "msw";
-
-import { customAxios } from "@component/common/apis/axios/customAxios";
-// import { isMock } from '~~/env';
-
-// TODO: env 파일로 분리하기
-export const isMock = true;
+import { customAxios } from "~api/axios/customAxios";
+import { isMock } from "~config/env";
 
 const ON_MSW_ENABLED = "on-msw-enabled";
 

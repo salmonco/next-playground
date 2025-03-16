@@ -1,5 +1,5 @@
-import { MockObject } from "@component/mock/types";
 import { delay, HttpResponse } from "msw";
+import { MockObject } from "~mock/types";
 
 type ResponseType = "1_0" | "2_0" | "3_0";
 

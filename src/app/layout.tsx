@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { EnableMock } from "~mock/browser";
 import "./globals.css";
-import { EnableMock } from "@component/mock/browser";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
