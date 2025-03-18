@@ -5,6 +5,10 @@ import { useEffect } from "react";
 import { getLetterList } from "~data/letter/getLetterList/fetch";
 
 export default function Home() {
+  // TODO: eslint + prettier 설정
+  // TODO: react-query 적용
+  // TODO: storybook 적용
+  // TODO: volunteer, youth 모노레포 구조 적용
   useEffect(() => {
     (async () => {
       const { data } = await getLetterList();
