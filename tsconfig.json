@@ -22,7 +22,8 @@
       "~config/*": ["./src/config/*"],
       "~api/*": ["./src/common/apis/*"],
       "~mock/*": ["./src/mock/*"],
-      "~data/*": ["./src/data/*"]
+      "~data/*": ["./src/data/*"],
+      "~constants/*": ["./src/constants/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
