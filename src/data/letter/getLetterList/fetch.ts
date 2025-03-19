@@ -1,5 +1,5 @@
 import { customAxios } from "~api/axios/customAxios";
-import { API_URL } from "~constants/apiUrl";
+import { API_URL } from "~data/apiUrl";
 import { LetterListResponse } from "~data/letter/getLetterList/type";
 
 export const getLetterList = async () => {

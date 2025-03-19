@@ -1,5 +1,5 @@
 import { delay, HttpResponse } from "msw";
-import { API_URL } from "~constants/apiUrl";
+import { API_URL } from "~data/apiUrl";
 import { LetterListResponse } from "~data/letter/getLetterList/type";
 import { MockObject } from "~mock/types";
 
