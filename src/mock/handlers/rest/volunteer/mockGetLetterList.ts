@@ -1,7 +1,7 @@
 import { delay, HttpResponse } from "msw";
-import { API_URL } from "~data/apiUrl";
-import { LetterListResponse } from "~data/letter/getLetterList/type";
-import { MockObject } from "~mock/types";
+import { API_URL } from "~/data/apiUrl";
+import { LetterListResponse } from "~/data/letter/getLetterList/type";
+import { MockObject } from "~/mock/types";
 
 type ResponseType = "1_0" | "2_0" | "3_0";
 

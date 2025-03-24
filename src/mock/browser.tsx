@@ -3,8 +3,8 @@
 import { useEffect, useRef } from "react";
 
 import { bypass } from "msw";
-import { customAxios } from "~api/axios/customAxios";
-import { isMock } from "~config/env";
+import { customAxios } from "~/api/axios/customAxios";
+import { isMock } from "~/config/env";
 
 const ON_MSW_ENABLED = "on-msw-enabled";
 

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect } from "react";
-import { getLetterList } from "~data/letter/getLetterList/fetch";
+import { getLetterList } from "~/data/letter/getLetterList/fetch";
 
 export default function Home() {
   // TODO: eslint + prettier 설정
